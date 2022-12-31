@@ -30,6 +30,7 @@ max_len = 20
 def chat(inp):
     result = model.predict(keras.preprocessing.sequence.pad_sequences(tokenizer.texts_to_sequences([inp]),
                                             truncating='post', maxlen=max_len))
+    print(result)
     tag = lbl_encoder.inverse_transform([np.argmax(result)])
     print(tag)
     for i in data['intents']:
