@@ -1,0 +1,263 @@
+{
+	"intents": [
+		{
+			"tag": "admission_eligibility",
+			"patterns": [
+				"Am I eligible to apply?",
+				"What are the eligibility requirements?",
+				"Do I meet the eligibility criteria?",
+				"What are the admission requirements?",
+				"Am I eligible to apply for this program?",
+				"Do I meet the requirements for admission?",
+				"What are the eligibility criteria for this program?",
+				"Is my GPA high enough to apply?",
+				"Do I need to have certain grades to be eligible?",
+				"Are there any prerequisites for this program?",
+				"Do I need to have certain test scores to apply?",
+				"Is there a minimum GPA requirement for this program?",
+				"What are the minimum requirements for admission?"
+			],
+			"responses": [
+				"To be eligible to apply, you must meet the following criteria: [insert eligibility requirements here]"
+			]
+		},
+		{
+			"tag": "application_deadline",
+			"patterns": [
+				"When is the deadline to apply?",
+				"What is the last date to apply?",
+				"When is the last day to submit the application?",
+				"What is the application deadline?"
+			],
+			"responses": ["The deadline to apply is [insert deadline date here]."]
+		},
+		{
+			"tag": "application_fee",
+			"patterns": [
+				"How much is the application fee?",
+				"What is the cost to apply?",
+				"What is the application fee?",
+				"How much do I need to pay to apply?"
+			],
+			"responses": ["The application fee is [insert fee amount here]."]
+		},
+		{
+			"tag": "admission_test",
+			"patterns": [
+				"When is the admission test?",
+				"What is the admission test date?",
+				"What is the date of the admission test?",
+				"When is the entrance exam?"
+			],
+			"responses": [
+				"The admission test will be held on [insert test date here]."
+			]
+		},
+		{
+			"tag": "university_facilities",
+			"patterns": [
+				"What facilities does the university have?",
+				"Are there sports facilities at the university?",
+				"Does the university have a gym?",
+				"What types of recreational facilities are available at the university?",
+				"Does the university have a library?",
+				"Are there any computer labs on campus?",
+				"Does the university have a student center?",
+				"Are there any food options on campus?"
+			],
+			"responses": ["The university has [insert list of facilities here]."]
+		},
+		{
+			"tag": "transport_facilities",
+			"patterns": [
+				"What transportation options are available to students?",
+				"Is there a shuttle service to and from campus?",
+				"Are there any discounts for students on public transportation?",
+				"Is it easy to find parking on campus?",
+				"Are there any bike rental options for students?"
+			],
+			"responses": [
+				"There are several transportation options available to students. These include [insert list of options here]."
+			]
+		},
+		{
+			"tag": "reasons_to_study",
+			"patterns": [
+				"Why should I study at this university?",
+				"What makes this university stand out?",
+				"What are the top reasons to study at this university?",
+				"What are the unique selling points of this university?",
+				"What makes this university a good choice for me?",
+				"What are the benefits of studying at this university?"
+			],
+			"responses": [
+				"There are several reasons to study at this university. Some of the top reasons include [insert list of reasons here]."
+			]
+		},
+		{
+			"tag": "tuition_fees",
+			"patterns": [
+				"How much are the tuition fees?",
+				"What is the cost of tuition?",
+				"How much do I need to pay in tuition?",
+				"What are the tuition fees for this program?"
+			],
+			"responses": [
+				"The tuition fees for this program are [insert fee amount here]."
+			]
+		},
+		{
+			"tag": "scholarships",
+			"patterns": [
+				"Are there any scholarships available?",
+				"How can I apply for a scholarship?",
+				"What are the scholarship options?",
+				"What are the requirements for a scholarship?"
+			],
+			"responses": [
+				"Yes, there are scholarships available for this program. You can apply for a scholarship by [insert application process here]."
+			]
+		},
+		{
+			"tag": "admission_decision",
+			"patterns": [
+				"When will I receive a decision?",
+				"When will I know if I got accepted?",
+				"How long does it take to receive an admission decision?",
+				"When will I find out if I'm accepted?"
+			],
+			"responses": [
+				"You will receive an admission decision [insert timeline here]."
+			]
+		},
+		{
+			"tag": "acceptance_requirement",
+			"patterns": [
+				"What do I need to do to accept the offer?",
+				"What are the requirements to accept the admission offer?",
+				"How do I accept the admission?",
+				"What is the process for accepting the offer?"
+			],
+			"responses": [
+				"To accept the admission offer, you will need to [insert acceptance requirements here]."
+			]
+		},
+		{
+			"tag": "application_process",
+			"patterns": [
+				"How do I apply?",
+				"What is the application process?",
+				"Where do I submit my application?",
+				"What are the steps to apply?"
+			],
+			"responses": [
+				"To apply, you will need to follow the following steps: [insert application process here]."
+			]
+		},
+		{
+			"tag": "application_materials",
+			"patterns": [
+				"What documents do I need to submit?",
+				"What materials do I need to provide?",
+				"What is required for the application?",
+				"What are the application materials?"
+			],
+			"responses": [
+				"You will need to submit the following materials with your application: [insert list of required materials here]."
+			]
+		},
+		{
+			"tag": "waiver",
+			"patterns": [
+				"Are there any fee waivers available?",
+				"How do I apply for a fee waiver?",
+				"What are the eligibility criteria for a fee waiver?",
+				"What fees are eligible for a waiver?"
+			],
+			"responses": [
+				"Yes, there are fee waivers available for eligible students. You can find more information about the application process and eligibility criteria on our website."
+			]
+		},
+		{
+			"tag": "total_faculties",
+			"patterns": [
+				"How many faculties does this university have?",
+				"What are the different faculties at this university?",
+				"What are the areas of expertise of the faculties at this university?",
+				"What is the student-to-faculty ratio at this university?"
+			],
+			"responses": [
+				"This university has [insert number of faculties here] faculties, covering a wide range of academic disciplines. The student-to-faculty ratio is [insert ratio here]."
+			]
+		},
+
+		{
+			"tag": "offered_programs",
+			"patterns": [
+				"What programs does this university offer?",
+				"Are there any specialized programs offered at this university?",
+				"What are the top programs at this university?",
+				"Are there any online programs available?"
+			],
+			"responses": [
+				"This university offers a wide range of programs, including [insert list of programs here]. We also have several specialized programs and a range of online options available."
+			]
+		},
+		{
+			"tag": "offered_courses",
+			"patterns": [
+				"What courses does this university offer?",
+				"Are there any courses that are unique to this university?",
+				"What is the course catalog for this university?",
+				"Are there any online courses available?"
+			],
+			"responses": [
+				"This university offers a wide range of courses in various disciplines. You can find more information about our course offerings in the course catalog or on our website."
+			]
+		},
+		{
+			"tag": "credit_transfers",
+			"patterns": [
+				"Is it possible to transfer credits from another institution?",
+				"How do I go about transferring credits?",
+				"Can I transfer credits from a community college?"
+			],
+			"responses": [
+				"Yes, it is possible to transfer credits from another institution to our university. You will need to provide transcripts and course descriptions from the other institution to be evaluated for credit transfer. You can find more information about the credit transfer process on the university's website or by contacting the registrar's office."
+			]
+		},
+		{
+			"tag": "total_credits",
+			"patterns": [
+				"What is the minimum number of credits required to graduate?",
+				"How many credits do I need to complete a degree?",
+				"What is the total number of credits required for a bachelor's degree?"
+			],
+			"responses": [
+				"The total number of credits required for a degree at our university varies depending on the program you are enrolled in. Most bachelor's degree programs require at least 120 credits to graduate. You can find more information about the specific credit requirements for your program in the academic catalog or by contacting the registrar's office."
+			]
+		},
+		{
+			"tag": "semesters",
+			"patterns": [
+				"How long is a semester?",
+				"When do semesters start and end?",
+				"Is it possible to take classes during the summer?"
+			],
+			"responses": [
+				"At our university, each semester is approximately 15 weeks long. The fall semester typically starts in late August or early September and ends in December, while the spring semester typically starts in January and ends in May. Summer classes are also offered at our university, typically in May, June, and July. You can find more information about the academic calendar on the university's website."
+			]
+		},
+		{
+			"tag": "additional_information",
+			"patterns": [
+				"Are there any resources available to help me with my studies?",
+				"What other information do you have for me?",
+				"Are there any scholarships or financial aid available?"
+			],
+			"responses": [
+				"There are many resources available to students at our university to help them succeed academically. These resources include academic advising, tutoring services, and study groups. The university also offers a variety of scholarships and financial aid options to help students pay for their education. You can find more information about these resources on the university's website or by contacting the ACAD."
+			]
+		}
+	]
+}
