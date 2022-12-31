@@ -15,7 +15,16 @@
 				"Are there any prerequisites for this program?",
 				"Do I need to have certain test scores to apply?",
 				"Is there a minimum GPA requirement for this program?",
-				"What are the minimum requirements for admission?"
+				"What are the minimum requirements for admission?",
+				"Are there any requirements to be eligible for admission?",
+				"What are the eligibility criteria for admission?",
+				"What are the qualifications needed for admission?",
+				"What are the admission requirements for this university?",
+				"Do I meet the eligibility requirements for admission?",
+				"How do I know if I am eligible for admission?",
+				"What are the necessary documents for admission eligibility?",
+				"What are the minimum requirements for admission?",
+				"What are the prerequisites for admission?"
 			],
 			"responses": [
 				"To be eligible to apply, you must meet the following criteria: [insert eligibility requirements here]"
@@ -27,7 +36,17 @@
 				"When is the deadline to apply?",
 				"What is the last date to apply?",
 				"When is the last day to submit the application?",
-				"What is the application deadline?"
+				"What is the application deadline?",
+				"When is the application deadline?",
+				"What is the deadline for applications?",
+				"What is the last date to submit an application?",
+				"When do I need to apply by?",
+				"Can I still apply after the deadline?",
+				"Is there an extension for the application deadline?",
+				"What are the deadlines for applications?",
+				"What is the cut-off date for applications?",
+				"Can I submit my application after the deadline?",
+				"What is the deadline to submit my application?"
 			],
 			"responses": ["The deadline to apply is [insert deadline date here]."]
 		},
@@ -37,7 +56,27 @@
 				"How much is the application fee?",
 				"What is the cost to apply?",
 				"What is the application fee?",
-				"How much do I need to pay to apply?"
+				"How much do I need to pay to apply?",
+				"What is the cost of applying to the university?",
+				"How much is the application fee?",
+				"What is the fee to apply?",
+				"Is there an application fee?",
+				"Is there a cost to apply?",
+				"How much do I have to pay to apply?",
+				"What are the application fees?",
+				"Is there a fee to apply to the university?",
+				"What is the fee to submit an application?",
+				"How much is the application process?",
+				"What are the charges for applying?",
+				"Is there a fee for submitting an application?",
+				"What is the cost to apply to the university?",
+				"How much does it cost to apply?",
+				"Is there a charge to apply?",
+				"What is the fee to apply to the school?",
+				"What is the cost to submit an application?",
+				"How much is the application charge?",
+				"Is there a fee for applying to the university?",
+				"What is the price to apply to the school?"
 			],
 			"responses": ["The application fee is [insert fee amount here]."]
 		},
@@ -46,8 +85,24 @@
 			"patterns": [
 				"When is the admission test?",
 				"What is the admission test date?",
-				"What is the date of the admission test?",
-				"When is the entrance exam?"
+				"Can you tell me the admission test date?",
+				"I want to know when the admission test is?",
+				"How do I know the admission test date?",
+				"What is the admission test schedule?",
+				"Can you give me the admission test schedule?",
+				"I want to know the admission test schedule?",
+				"How can I find out the admission test schedule?",
+				"Can you provide me the admission test information?",
+				"Where can I find the admission test date?",
+				"Is there any information available on the admission test?",
+				"I need to know the admission test date, can you help?",
+				"Can you tell me when the admission test is happening?",
+				"I am interested in the admission test, can you provide me the date?",
+				"I want to apply for the admission test, can you give me the date?",
+				"I am planning to attend the admission test, can you tell me when it is?",
+				"Can you give me more information about the admission test?",
+				"Can you provide me the admission test schedule and dates?",
+				"I am looking for the admission test date, can you help?"
 			],
 			"responses": [
 				"The admission test will be held on [insert test date here]."
