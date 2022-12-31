@@ -236,13 +236,14 @@
 		{
 			"tag": "total_faculties",
 			"patterns": [
+				"How many departments does this university have?",
 				"How many faculties does this university have?",
 				"What are the different faculties at this university?",
 				"What are the areas of expertise of the faculties at this university?",
 				"What is the student-to-faculty ratio at this university?"
 			],
 			"responses": [
-				"This university has [insert number of faculties here] faculties, covering a wide range of academic disciplines. The student-to-faculty ratio is [insert ratio here]."
+				"This university has [insert number of faculties here] faculties, covering a wide range of academic disciplines."
 			]
 		},
 
